@@ -439,47 +439,7 @@ export default function Index() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {subBrands.map((brand, index) => (
-                <Card
-                  key={index}
-                  className="bg-slate-800/30 border-slate-700/50 hover:bg-slate-800/50 transition-all duration-300 group overflow-hidden"
-                >
-                  <CardHeader className="pb-4">
-                    <div
-                      className={`w-12 h-12 rounded-xl bg-gradient-to-br ${brand.color} flex items-center justify-center mb-4 group-hover:scale-110 transition-transform`}
-                    >
-                      {brand.icon}
-                    </div>
-                    <CardTitle className="text-xl text-white group-hover:text-cyan-400 transition-colors">
-                      {brand.name}
-                    </CardTitle>
-                    <CardDescription className="text-slate-400">
-                      {brand.tagline}
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent className="pt-0">
-                    <p className="text-slate-300 text-sm mb-4 leading-relaxed">
-                      {brand.description}
-                    </p>
-                    <div className="space-y-2 mb-6">
-                      {brand.features.map((feature, idx) => (
-                        <div key={idx} className="flex items-center space-x-2">
-                          <div className="w-1.5 h-1.5 bg-cyan-400 rounded-full"></div>
-                          <span className="text-xs text-slate-400">
-                            {feature}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="w-full text-slate-300 hover:text-white hover:bg-slate-700/50"
-                    >
-                      Visit {brand.url}
-                      <ExternalLink className="w-4 h-4 ml-2" />
-                    </Button>
-                  </CardContent>
-                </Card>
+                <SubBrandCard key={index} {...brand} />
               ))}
             </div>
           </div>
