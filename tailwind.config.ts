@@ -57,6 +57,23 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // CoreWeaver custom colors
+        quantum: {
+          50: "#f0f9ff",
+          100: "#e0f2fe",
+          500: "#06b6d4",
+          600: "#0891b2",
+          700: "#0e7490",
+          900: "#164e63",
+        },
+        gemini: {
+          50: "#faf5ff",
+          100: "#f3e8ff",
+          500: "#8b5cf6",
+          600: "#7c3aed",
+          700: "#6d28d9",
+          900: "#4c1d95",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
