@@ -52,7 +52,7 @@ export default function Index() {
       name: "Vault",
       tagline: "Secure private key management",
       description:
-        "Revolutionary multisig and KeyGuard solutions for enterprise-grade Bitcoin security.",
+        "Revolutionary multisig and KeyGuard solutions for enterprise-grade Blockchain security.",
       icon: <Lock className="w-8 h-8" />,
       url: "vault.darkgemini.com",
       color: "from-emerald-500 to-green-600",
@@ -86,7 +86,7 @@ export default function Index() {
       name: "Academy",
       tagline: "Education & community support",
       description:
-        "Comprehensive learning resources for Bitcoin privacy protocols and wallet development.",
+        "Comprehensive learning resources for Blockchain privacy protocols and wallet development.",
       icon: <GraduationCap className="w-8 h-8" />,
       url: "academy.darkgemini.com",
       color: "from-purple-500 to-violet-600",
@@ -111,7 +111,7 @@ export default function Index() {
   const techStack = [
     { name: "Quantum Computing", description: "Post-quantum cryptography" },
     { name: "AI/ML Systems", description: "Decentralized intelligence" },
-    { name: "Bitcoin Core", description: "Blockchain interaction" },
+    { name: "Blockchain Core", description: "Blockchain interaction" },
     { name: "PyTorch", description: "Diffusion models" },
     { name: "Builder.io", description: "Visual development" },
     { name: "CoreWeave", description: "GPU acceleration" },
@@ -268,7 +268,7 @@ export default function Index() {
                 Autonomous Systems
                 <br />
                 <span className="bg-gradient-to-r from-cyan-400 via-violet-500 to-pink-500 bg-clip-text text-transparent">
-                  for Bitcoin Innovation
+                  for Blockchain Innovation
                 </span>
               </h1>
 
@@ -347,8 +347,8 @@ export default function Index() {
                 <p className="text-slate-300 text-lg mb-8 leading-relaxed">
                   COREWEAVER.xyz serves as the central portal for the Dark
                   Gemini Alliance (Alliantia Geminus Obscurus), revolutionizing
-                  Bitcoin development through innovative open-source tools and
-                  collaborative research.
+                  Blockchain development through innovative open-source tools
+                  and collaborative research.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
@@ -432,8 +432,8 @@ export default function Index() {
               </h2>
               <p className="text-slate-300 text-lg max-w-3xl mx-auto">
                 Five specialized sub-brands working in harmony to advance
-                Bitcoin innovation, privacy, and security through collaborative
-                research and development.
+                Blockchain innovation, privacy, and security through
+                collaborative research and development.
               </p>
             </div>
 
@@ -456,10 +456,10 @@ export default function Index() {
                 Research & Development
               </Badge>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-                Bitcoin R&D Challenges
+                Blockchain R&D Challenges
               </h2>
               <p className="text-slate-300 text-lg max-w-3xl mx-auto">
-                Addressing critical challenges in Bitcoin development through
+                Addressing critical challenges in Blockchain development through
                 innovative research and cutting-edge technology solutions.
               </p>
             </div>
@@ -534,7 +534,7 @@ export default function Index() {
                 Join the Alliance
               </h2>
               <p className="text-slate-300 text-lg max-w-3xl mx-auto mb-8">
-                Contribute to the future of Bitcoin through open-source
+                Contribute to the future of Blockchain through open-source
                 development, research collaboration, and community-driven
                 innovation.
               </p>
@@ -574,7 +574,8 @@ export default function Index() {
                   </div>
                   <p className="text-slate-400 mb-6 max-w-md">
                     Establishing universal standards for quantum algorithm
-                    design, powering autonomous systems for Bitcoin innovation.
+                    design, powering autonomous systems for Blockchain
+                    innovation.
                   </p>
                   <div className="flex space-x-4">
                     <Button
