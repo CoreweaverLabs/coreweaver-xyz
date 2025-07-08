@@ -27,6 +27,14 @@ import {
   ArrowUp,
   Twitter,
   Mail,
+  Linkedin,
+  MessageCircle,
+  Book,
+  FileText,
+  Users,
+  Globe,
+  Calendar,
+  MapPin,
 } from "lucide-react";
 
 export default function Index() {
