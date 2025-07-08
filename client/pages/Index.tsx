@@ -266,7 +266,7 @@ export default function Index() {
                 className="mb-6 bg-slate-800/50 text-slate-300 border-slate-700"
               >
                 <Zap className="w-4 h-4 mr-2" />
-                AI-Driven Blockchain Security Platform
+                Gemini X Kraken Collaboration
               </Badge>
 
               {/* Main Heading */}
