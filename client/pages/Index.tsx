@@ -26,7 +26,6 @@ import {
   X,
   ArrowUp,
   Twitter,
-  Linkedin,
   Mail,
 } from "lucide-react";
 
@@ -108,15 +107,6 @@ export default function Index() {
     },
   ];
 
-  const techStack = [
-    { name: "Quantum Computing", description: "Post-quantum cryptography" },
-    { name: "AI/ML Systems", description: "Decentralized intelligence" },
-    { name: "Blockchain Core", description: "Blockchain interaction" },
-    { name: "PyTorch", description: "Diffusion models" },
-    { name: "Builder.io", description: "Visual development" },
-    { name: "CoreWeave", description: "GPU acceleration" },
-  ];
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white overflow-hidden">
       {/* Background Effects */}
@@ -180,9 +170,12 @@ export default function Index() {
               <Button
                 size="sm"
                 className="bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700"
+                asChild
               >
-                Get Started
-                <ChevronRight className="w-4 h-4 ml-1" />
+                <a href="#join">
+                  Join Alpha
+                  <ChevronRight className="w-4 h-4 ml-1" />
+                </a>
               </Button>
             </div>
 
@@ -207,24 +200,28 @@ export default function Index() {
               <a
                 href="#stack"
                 className="block text-slate-300 hover:text-white transition-colors"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Stack
               </a>
               <a
                 href="#use-cases"
                 className="block text-slate-300 hover:text-white transition-colors"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Use Cases
               </a>
               <a
                 href="#ecosystem"
                 className="block text-slate-300 hover:text-white transition-colors"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Ecosystem
               </a>
               <a
                 href="#roadmap"
                 className="block text-slate-300 hover:text-white transition-colors"
+                onClick={() => setIsMenuOpen(false)}
               >
                 Roadmap
               </a>
@@ -240,8 +237,9 @@ export default function Index() {
                 <Button
                   size="sm"
                   className="w-full mt-2 bg-gradient-to-r from-cyan-500 to-violet-600"
+                  asChild
                 >
-                  Get Started
+                  <a href="#join">Join Alpha</a>
                 </Button>
               </div>
             </div>
@@ -355,8 +353,9 @@ export default function Index() {
                 How COREWEAVER Works
               </h2>
               <p className="text-slate-300 text-lg max-w-3xl mx-auto mb-12">
-                A distributed AI coordination layer that connects autonomous agents,
-                subnet validators, and security systems across blockchain networks.
+                A distributed AI coordination layer that connects autonomous
+                agents, subnet validators, and security systems across
+                blockchain networks.
               </p>
             </div>
 
@@ -367,7 +366,9 @@ export default function Index() {
                   <Brain className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="font-semibold text-white mb-2">AI Agents</h3>
-                <p className="text-slate-400 text-sm">Autonomous intelligence gathering and analysis</p>
+                <p className="text-slate-400 text-sm">
+                  Autonomous intelligence gathering and analysis
+                </p>
               </div>
 
               <div className="flex items-center justify-center lg:block">
@@ -379,7 +380,9 @@ export default function Index() {
                   <Waves className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="font-semibold text-white mb-2">Gemini Subnet</h3>
-                <p className="text-slate-400 text-sm">Decentralized validation and scoring network</p>
+                <p className="text-slate-400 text-sm">
+                  Decentralized validation and scoring network
+                </p>
               </div>
 
               <div className="flex items-center justify-center lg:block">
@@ -390,8 +393,12 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gradient-to-br from-violet-500 to-purple-600 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <Shield className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="font-semibold text-white mb-2">Sentinel Layer</h3>
-                <p className="text-slate-400 text-sm">Threat detection and security coordination</p>
+                <h3 className="font-semibold text-white mb-2">
+                  Sentinel Layer
+                </h3>
+                <p className="text-slate-400 text-sm">
+                  Threat detection and security coordination
+                </p>
               </div>
             </div>
 
@@ -406,12 +413,15 @@ export default function Index() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-300 text-sm mb-4">
-                    Runtime environment for autonomous AI agents with built-in security,
-                    communication protocols, and blockchain integration.
+                    Runtime environment for autonomous AI agents with built-in
+                    security, communication protocols, and blockchain
+                    integration.
                   </p>
                   <div className="space-y-2">
                     <div className="flex justify-between text-xs">
-                      <span className="text-slate-400">PyTorch Integration</span>
+                      <span className="text-slate-400">
+                        PyTorch Integration
+                      </span>
                       <span className="text-emerald-400">Active</span>
                     </div>
                     <div className="flex justify-between text-xs">
@@ -440,11 +450,15 @@ export default function Index() {
                   </p>
                   <div className="space-y-2">
                     <div className="flex justify-between text-xs">
-                      <span className="text-slate-400">DarkGemini Crawlers</span>
+                      <span className="text-slate-400">
+                        DarkGemini Crawlers
+                      </span>
                       <span className="text-emerald-400">Online</span>
                     </div>
                     <div className="flex justify-between text-xs">
-                      <span className="text-slate-400">Pattern Recognition</span>
+                      <span className="text-slate-400">
+                        Pattern Recognition
+                      </span>
                       <span className="text-emerald-400">Learning</span>
                     </div>
                     <div className="flex justify-between text-xs">
@@ -464,8 +478,8 @@ export default function Index() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-300 text-sm mb-4">
-                    Decentralized coordination layer connecting TAO subnet validators
-                    with AI agents and external blockchain networks.
+                    Decentralized coordination layer connecting TAO subnet
+                    validators with AI agents and external blockchain networks.
                   </p>
                   <div className="space-y-2">
                     <div className="flex justify-between text-xs">
@@ -501,8 +515,8 @@ export default function Index() {
                 Use Cases in Action
               </h2>
               <p className="text-slate-300 text-lg max-w-3xl mx-auto">
-                See how COREWEAVER's AI agents are protecting blockchain networks
-                and empowering decentralized communities today.
+                See how COREWEAVER's AI agents are protecting blockchain
+                networks and empowering decentralized communities today.
               </p>
             </div>
 
@@ -513,26 +527,37 @@ export default function Index() {
                   <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-pink-600 rounded-xl flex items-center justify-center mb-4">
                     <Shield className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-xl text-white">🔍 Threat Intelligence</CardTitle>
-                  <CardDescription className="text-slate-400">DarkGemini Network</CardDescription>
+                  <CardTitle className="text-xl text-white">
+                    🔍 Threat Intelligence
+                  </CardTitle>
+                  <CardDescription className="text-slate-400">
+                    DarkGemini Network
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-300 text-sm mb-6">
-                    Autonomous agents crawl darknet sources to identify key leaks,
-                    phishing schemes, and emerging threats targeting blockchain users.
+                    Autonomous agents crawl darknet sources to identify key
+                    leaks, phishing schemes, and emerging threats targeting
+                    blockchain users.
                   </p>
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">24/7 darknet monitoring</span>
+                      <span className="text-xs text-slate-400">
+                        24/7 darknet monitoring
+                      </span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">Private key leak detection</span>
+                      <span className="text-xs text-slate-400">
+                        Private key leak detection
+                      </span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">Real-time threat alerts</span>
+                      <span className="text-xs text-slate-400">
+                        Real-time threat alerts
+                      </span>
                     </div>
                   </div>
                 </CardContent>
@@ -544,26 +569,37 @@ export default function Index() {
                   <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center mb-4">
                     <Waves className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-xl text-white">📈 Subnet Validation</CardTitle>
-                  <CardDescription className="text-slate-400">Gemini Subnet</CardDescription>
+                  <CardTitle className="text-xl text-white">
+                    📈 Subnet Validation
+                  </CardTitle>
+                  <CardDescription className="text-slate-400">
+                    Gemini Subnet
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-300 text-sm mb-6">
-                    Score AI signals using your own validator node, earn credibility
-                    and stake rewards while contributing to network security.
+                    Score AI signals using your own validator node, earn
+                    credibility and stake rewards while contributing to network
+                    security.
                   </p>
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">Decentralized validation</span>
+                      <span className="text-xs text-slate-400">
+                        Decentralized validation
+                      </span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">Stake-based rewards</span>
+                      <span className="text-xs text-slate-400">
+                        Stake-based rewards
+                      </span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">TAO integration</span>
+                      <span className="text-xs text-slate-400">
+                        TAO integration
+                      </span>
                     </div>
                   </div>
                 </CardContent>
@@ -575,26 +611,37 @@ export default function Index() {
                   <div className="w-12 h-12 bg-gradient-to-br from-violet-500 to-purple-600 rounded-xl flex items-center justify-center mb-4">
                     <Brain className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-xl text-white">🧠 AI UX for DAOs</CardTitle>
-                  <CardDescription className="text-slate-400">Project Maelstrom</CardDescription>
+                  <CardTitle className="text-xl text-white">
+                    🧠 AI UX for DAOs
+                  </CardTitle>
+                  <CardDescription className="text-slate-400">
+                    Project Maelstrom
+                  </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-300 text-sm mb-6">
-                    Build AI agents that model governance proposals, simulate voting
-                    outcomes, and flag potential risks for DAO communities.
+                    Build AI agents that model governance proposals, simulate
+                    voting outcomes, and flag potential risks for DAO
+                    communities.
                   </p>
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">Proposal simulation</span>
+                      <span className="text-xs text-slate-400">
+                        Proposal simulation
+                      </span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">Risk assessment</span>
+                      <span className="text-xs text-slate-400">
+                        Risk assessment
+                      </span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">Voting predictions</span>
+                      <span className="text-xs text-slate-400">
+                        Voting predictions
+                      </span>
                     </div>
                   </div>
                 </CardContent>
@@ -604,19 +651,27 @@ export default function Index() {
             {/* Proof Points */}
             <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-cyan-400 mb-2">150+</div>
+                <div className="text-2xl md:text-3xl font-bold text-cyan-400 mb-2">
+                  150+
+                </div>
                 <div className="text-slate-400 text-sm">Threats Detected</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-violet-400 mb-2">25</div>
+                <div className="text-2xl md:text-3xl font-bold text-violet-400 mb-2">
+                  25
+                </div>
                 <div className="text-slate-400 text-sm">Active Validators</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-emerald-400 mb-2">99.9%</div>
+                <div className="text-2xl md:text-3xl font-bold text-emerald-400 mb-2">
+                  99.9%
+                </div>
                 <div className="text-slate-400 text-sm">Uptime</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-pink-400 mb-2">5ms</div>
+                <div className="text-2xl md:text-3xl font-bold text-pink-400 mb-2">
+                  5ms
+                </div>
                 <div className="text-slate-400 text-sm">Response Time</div>
               </div>
             </div>
@@ -675,27 +730,43 @@ export default function Index() {
               <div className="relative">
                 <div className="flex items-center mb-8">
                   <div className="w-4 h-4 bg-emerald-400 rounded-full mr-4"></div>
-                  <Badge variant="secondary" className="bg-emerald-500/20 text-emerald-300 border-emerald-500/30">
+                  <Badge
+                    variant="secondary"
+                    className="bg-emerald-500/20 text-emerald-300 border-emerald-500/30"
+                  >
                     Q1 2024 - COMPLETE
                   </Badge>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">Core Architecture</h3>
-                      <p className="text-slate-400 text-sm">AgentOS foundation and basic AI agent framework</p>
+                      <h3 className="font-semibold text-white mb-2">
+                        Core Architecture
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        AgentOS foundation and basic AI agent framework
+                      </p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">DarkGemini Alpha</h3>
-                      <p className="text-slate-400 text-sm">Initial threat intelligence crawlers and data collection</p>
+                      <h3 className="font-semibold text-white mb-2">
+                        DarkGemini Alpha
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Initial threat intelligence crawlers and data collection
+                      </p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">Research Phase</h3>
-                      <p className="text-slate-400 text-sm">Analysis of blockchain security challenges and AI applications</p>
+                      <h3 className="font-semibold text-white mb-2">
+                        Research Phase
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Analysis of blockchain security challenges and AI
+                        applications
+                      </p>
                     </CardContent>
                   </Card>
                 </div>
@@ -705,27 +776,42 @@ export default function Index() {
               <div className="relative">
                 <div className="flex items-center mb-8">
                   <div className="w-4 h-4 bg-yellow-400 rounded-full mr-4"></div>
-                  <Badge variant="secondary" className="bg-yellow-500/20 text-yellow-300 border-yellow-500/30">
+                  <Badge
+                    variant="secondary"
+                    className="bg-yellow-500/20 text-yellow-300 border-yellow-500/30"
+                  >
                     Q2 2024 - IN PROGRESS
                   </Badge>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">Subnet Integration</h3>
-                      <p className="text-slate-400 text-sm">Connect with TAO subnet and implement validator rewards</p>
+                      <h3 className="font-semibold text-white mb-2">
+                        Subnet Integration
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Connect with TAO subnet and implement validator rewards
+                      </p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">Threat Intel Beta</h3>
-                      <p className="text-slate-400 text-sm">Enhanced pattern recognition and real-time alert system</p>
+                      <h3 className="font-semibold text-white mb-2">
+                        Threat Intel Beta
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Enhanced pattern recognition and real-time alert system
+                      </p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">Developer APIs</h3>
-                      <p className="text-slate-400 text-sm">Public APIs for threat data access and agent development</p>
+                      <h3 className="font-semibold text-white mb-2">
+                        Developer APIs
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Public APIs for threat data access and agent development
+                      </p>
                     </CardContent>
                   </Card>
                 </div>
@@ -735,27 +821,43 @@ export default function Index() {
               <div className="relative">
                 <div className="flex items-center mb-8">
                   <div className="w-4 h-4 bg-slate-400 rounded-full mr-4"></div>
-                  <Badge variant="secondary" className="bg-slate-500/20 text-slate-300 border-slate-500/30">
+                  <Badge
+                    variant="secondary"
+                    className="bg-slate-500/20 text-slate-300 border-slate-500/30"
+                  >
                     Q3-Q4 2024 - PLANNED
                   </Badge>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">Maelstrom Launch</h3>
-                      <p className="text-slate-400 text-sm">Full DAO governance AI and simulation platform</p>
+                      <h3 className="font-semibold text-white mb-2">
+                        Maelstrom Launch
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Full DAO governance AI and simulation platform
+                      </p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">Cross-chain Support</h3>
-                      <p className="text-slate-400 text-sm">Expand beyond Bitcoin to Ethereum, Solana, and others</p>
+                      <h3 className="font-semibold text-white mb-2">
+                        Cross-chain Support
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Expand beyond Bitcoin to Ethereum, Solana, and others
+                      </p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">Community Platform</h3>
-                      <p className="text-slate-400 text-sm">Open-source tools, documentation, and contributor onboarding</p>
+                      <h3 className="font-semibold text-white mb-2">
+                        Community Platform
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Open-source tools, documentation, and contributor
+                        onboarding
+                      </p>
                     </CardContent>
                   </Card>
                 </div>
@@ -777,8 +879,9 @@ export default function Index() {
               Join Subnet Alpha
             </h2>
             <p className="text-slate-300 text-lg mb-12 max-w-2xl mx-auto">
-              Get early access to COREWEAVER's AI coordination layer.
-              Run validator nodes, contribute threat intelligence, and help secure blockchain networks.
+              Get early access to COREWEAVER's AI coordination layer. Run
+              validator nodes, contribute threat intelligence, and help secure
+              blockchain networks.
             </p>
 
             {/* Waitlist Form */}
@@ -832,7 +935,9 @@ export default function Index() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <Card className="bg-slate-800/30 border-slate-700/50 p-6 hover:bg-slate-800/50 transition-colors">
                 <Github className="w-8 h-8 text-cyan-400 mx-auto mb-4" />
-                <h3 className="font-semibold text-white mb-2">Contribute Code</h3>
+                <h3 className="font-semibold text-white mb-2">
+                  Contribute Code
+                </h3>
                 <p className="text-slate-400 text-sm mb-4">
                   Help build the open-source AI coordination layer
                 </p>
@@ -843,7 +948,9 @@ export default function Index() {
 
               <Card className="bg-slate-800/30 border-slate-700/50 p-6 hover:bg-slate-800/50 transition-colors">
                 <GraduationCap className="w-8 h-8 text-violet-400 mx-auto mb-4" />
-                <h3 className="font-semibold text-white mb-2">Learn & Research</h3>
+                <h3 className="font-semibold text-white mb-2">
+                  Learn & Research
+                </h3>
                 <p className="text-slate-400 text-sm mb-4">
                   Access documentation, guides, and research papers
                 </p>
@@ -865,109 +972,107 @@ export default function Index() {
             </div>
           </div>
         </section>
-
-        {/* Footer */}
-        <footer className="py-24 border-t border-slate-800/50">
-          <div className="max-w-7xl mx-auto px-6 lg:px-8">
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-                <div className="md:col-span-2">
-                  <div className="flex items-center space-x-3 mb-4">
-                    <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-violet-600 rounded-lg flex items-center justify-center">
-                      <Cpu className="w-5 h-5 text-white" />
-                    </div>
-                    <div>
-                      <div className="font-bold text-xl">COREWEAVER</div>
-                      <div className="text-xs text-slate-400">
-                        Dark Gemini Alliance
-                      </div>
-                    </div>
-                  </div>
-                  <p className="text-slate-400 mb-6 max-w-md">
-                    Establishing universal standards for quantum algorithm
-                    design, powering autonomous systems for Blockchain
-                    innovation.
-                  </p>
-                  <div className="flex space-x-4">
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="text-slate-400 hover:text-white"
-                    >
-                      <Github className="w-4 h-4" />
-                    </Button>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="text-slate-400 hover:text-white"
-                    >
-                      <Twitter className="w-4 h-4" />
-                    </Button>
-                    <Button
-                      variant="ghost"
-                      size="sm"
-                      className="text-slate-400 hover:text-white"
-                    >
-                      <Mail className="w-4 h-4" />
-                    </Button>
-                  </div>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-white mb-4">Sub-Brands</h3>
-                  <div className="space-y-3">
-                    {subBrands.slice(0, 3).map((brand, index) => (
-                      <a
-                        key={index}
-                        href={`#${brand.name.toLowerCase()}`}
-                        className="block text-slate-400 hover:text-white transition-colors"
-                      >
-                        {brand.name}
-                      </a>
-                    ))}
-                  </div>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-white mb-4">Resources</h3>
-                  <div className="space-y-3">
-                    <a
-                      href="#"
-                      className="block text-slate-400 hover:text-white transition-colors"
-                    >
-                      Documentation
-                    </a>
-                    <a
-                      href="#"
-                      className="block text-slate-400 hover:text-white transition-colors"
-                    >
-                      API Reference
-                    </a>
-                    <a
-                      href="#"
-                      className="block text-slate-400 hover:text-white transition-colors"
-                    >
-                      Developer Guide
-                    </a>
-                    <a
-                      href="#"
-                      className="block text-slate-400 hover:text-white transition-colors"
-                    >
-                      Community Forums
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="border-t border-slate-800/50 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p className="text-slate-400 text-sm">
-                  © 2024 COREWEAVER.xyz - Dark Gemini Alliance. All rights
-                  reserved.
-                </p>
-                <p className="text-slate-500 text-xs mt-2 md:mt-0">
-                  Protege, Fabrica, Evolvi | Proteggi, Crea, Evolvi
-                </p>
-              </div>
-            </footer>
-          </div>
-        </section>
       </main>
+
+      {/* Footer */}
+      <footer className="py-24 border-t border-slate-800/50">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+            <div className="md:col-span-2">
+              <div className="flex items-center space-x-3 mb-4">
+                <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-violet-600 rounded-lg flex items-center justify-center">
+                  <Cpu className="w-5 h-5 text-white" />
+                </div>
+                <div>
+                  <div className="font-bold text-xl">COREWEAVER</div>
+                  <div className="text-xs text-slate-400">
+                    Dark Gemini Alliance
+                  </div>
+                </div>
+              </div>
+              <p className="text-slate-400 mb-6 max-w-md">
+                Establishing universal standards for quantum algorithm design,
+                powering autonomous systems for Blockchain innovation.
+              </p>
+              <div className="flex space-x-4">
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="text-slate-400 hover:text-white"
+                >
+                  <Github className="w-4 h-4" />
+                </Button>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="text-slate-400 hover:text-white"
+                >
+                  <Twitter className="w-4 h-4" />
+                </Button>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="text-slate-400 hover:text-white"
+                >
+                  <Mail className="w-4 h-4" />
+                </Button>
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-white mb-4">Sub-Brands</h3>
+              <div className="space-y-3">
+                {subBrands.slice(0, 3).map((brand, index) => (
+                  <a
+                    key={index}
+                    href={`https://${brand.url}`}
+                    className="block text-slate-400 hover:text-white transition-colors"
+                  >
+                    {brand.name}
+                  </a>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3 className="font-semibold text-white mb-4">Resources</h3>
+              <div className="space-y-3">
+                <a
+                  href="#"
+                  className="block text-slate-400 hover:text-white transition-colors"
+                >
+                  Documentation
+                </a>
+                <a
+                  href="#"
+                  className="block text-slate-400 hover:text-white transition-colors"
+                >
+                  API Reference
+                </a>
+                <a
+                  href="#"
+                  className="block text-slate-400 hover:text-white transition-colors"
+                >
+                  Developer Guide
+                </a>
+                <a
+                  href="#"
+                  className="block text-slate-400 hover:text-white transition-colors"
+                >
+                  Community Forums
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="border-t border-slate-800/50 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <p className="text-slate-400 text-sm">
+              © 2024 COREWEAVER.xyz - Dark Gemini Alliance. All rights
+              reserved.
+            </p>
+            <p className="text-slate-500 text-xs mt-2 md:mt-0">
+              Protege, Fabrica, Evolvi | Proteggi, Crea, Evolvi
+            </p>
+          </div>
+        </div>
+      </footer>
 
       {/* Back to Top Button */}
       {showBackToTop && (
