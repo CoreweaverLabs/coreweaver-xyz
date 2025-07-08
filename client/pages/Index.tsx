@@ -947,50 +947,78 @@ export default function Index() {
               validator networks.
             </p>
 
-            {/* Waitlist Form */}
-            <Card className="bg-slate-800/30 border-slate-700/50 p-8 mb-12">
+            {/* Platform Access Form */}
+            <Card className="bg-gradient-to-br from-slate-800/40 to-slate-700/40 border-slate-600/50 p-8 mb-12 backdrop-blur-sm">
+              <div className="text-center mb-6">
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  Get Platform Access
+                </h3>
+                <p className="text-slate-300 text-sm">
+                  Join the Gemini X Kraken collaboration and start using
+                  COREWEAVER's AI security suite
+                </p>
+              </div>
               <form className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-sm font-medium text-slate-300 mb-2">
-                      Email Address
+                      Professional Email
                     </label>
                     <input
                       type="email"
                       className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:ring-2 focus:ring-cyan-400 focus:border-transparent"
-                      placeholder="your@email.com"
+                      placeholder="your@company.com"
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-slate-300 mb-2">
-                      Role/Interest
+                      Account Type
                     </label>
                     <select className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white focus:ring-2 focus:ring-cyan-400 focus:border-transparent">
+                      <option>Enterprise Security</option>
                       <option>Validator Node Operator</option>
                       <option>AI/ML Developer</option>
                       <option>Security Researcher</option>
-                      <option>DAO Contributor</option>
-                      <option>General Interest</option>
+                      <option>Institutional Partner</option>
                     </select>
                   </div>
                 </div>
-                <div>
-                  <label className="block text-sm font-medium text-slate-300 mb-2">
-                    Technical Background (Optional)
-                  </label>
-                  <textarea
-                    className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:ring-2 focus:ring-cyan-400 focus:border-transparent"
-                    rows={3}
-                    placeholder="Tell us about your experience with blockchain, AI, or security..."
-                  />
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-sm font-medium text-slate-300 mb-2">
+                      Organization
+                    </label>
+                    <input
+                      type="text"
+                      className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:ring-2 focus:ring-cyan-400 focus:border-transparent"
+                      placeholder="Company or Project Name"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-slate-300 mb-2">
+                      Use Case
+                    </label>
+                    <select className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white focus:ring-2 focus:ring-cyan-400 focus:border-transparent">
+                      <option>Threat Intelligence</option>
+                      <option>Validator Operations</option>
+                      <option>DAO Security</option>
+                      <option>Research & Development</option>
+                      <option>Custom Integration</option>
+                    </select>
+                  </div>
                 </div>
                 <Button
                   size="lg"
-                  className="w-full bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700"
+                  className="w-full bg-gradient-to-r from-emerald-500 to-cyan-600 hover:from-emerald-600 hover:to-cyan-700"
                 >
-                  Launch Platform
+                  🚀 Launch Platform Access
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Button>
+                <p className="text-center text-xs text-slate-400">
+                  By launching, you agree to our Terms of Service and Privacy
+                  Policy. Enterprise accounts get priority support and custom
+                  integrations.
+                </p>
               </form>
             </Card>
 
