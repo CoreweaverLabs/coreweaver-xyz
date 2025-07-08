@@ -928,22 +928,23 @@ export default function Index() {
           </div>
         </section>
 
-        {/* Join Section */}
+        {/* Launch Section */}
         <section id="join" className="py-24 bg-slate-900/50">
           <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <Badge
               variant="secondary"
-              className="mb-6 bg-slate-800/50 text-slate-300 border-slate-700"
+              className="mb-6 bg-gradient-to-r from-emerald-500/20 to-cyan-500/20 text-emerald-300 border-emerald-500/30"
             >
-              Early Access
+              🚀 Now Live - Gemini X Kraken Partnership
             </Badge>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-              Join Subnet Alpha
+              Launch COREWEAVER
             </h2>
             <p className="text-slate-300 text-lg mb-12 max-w-2xl mx-auto">
-              Get early access to COREWEAVER's AI coordination layer. Run
-              validator nodes, contribute threat intelligence, and help secure
-              blockchain networks.
+              Experience the power of autonomous AI security systems. Through
+              our collaboration with Gemini and Kraken, we're revolutionizing
+              blockchain protection with real-time threat intelligence and
+              validator networks.
             </p>
 
             {/* Waitlist Form */}
