@@ -793,8 +793,8 @@ export default function Index() {
                         Subnet Integration
                       </h3>
                       <p className="text-slate-400 text-sm">
-                        TAO subnet validator nodes and decentralized scoring
-                        system
+                        Bittensor subnet validator nodes and decentralized
+                        scoring system
                       </p>
                     </CardContent>
                   </Card>
