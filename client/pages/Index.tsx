@@ -310,7 +310,7 @@ export default function Index() {
                   asChild
                 >
                   <a href="#join">
-                    Join Subnet Alpha
+                    Launch Platform
                     <ExternalLink className="w-5 h-5 ml-2" />
                   </a>
                 </Button>
