@@ -181,7 +181,7 @@ export default function Index() {
                 asChild
               >
                 <a href="#join">
-                  Join Alpha
+                  Launch
                   <ChevronRight className="w-4 h-4 ml-1" />
                 </a>
               </Button>
@@ -247,7 +247,7 @@ export default function Index() {
                   className="w-full mt-2 bg-gradient-to-r from-cyan-500 to-violet-600"
                   asChild
                 >
-                  <a href="#join">Join Alpha</a>
+                  <a href="#join">Launch</a>
                 </Button>
               </div>
             </div>
@@ -987,7 +987,7 @@ export default function Index() {
                   size="lg"
                   className="w-full bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700"
                 >
-                  Join Alpha Waitlist
+                  Launch Platform
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </Button>
               </form>
@@ -1174,7 +1174,7 @@ export default function Index() {
                   href="#join"
                   className="block text-slate-400 hover:text-violet-400 transition-colors text-sm"
                 >
-                  Join Alpha
+                  Launch
                 </a>
                 <a
                   href="#"
