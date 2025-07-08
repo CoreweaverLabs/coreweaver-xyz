@@ -355,9 +355,8 @@ export default function Index() {
                 How COREWEAVER Works
               </h2>
               <p className="text-slate-300 text-lg max-w-3xl mx-auto mb-12">
-                A distributed AI coordination layer that connects autonomous
-                agents, subnet validators, and security systems across
-                blockchain networks.
+                A distributed AI coordination layer that connects autonomous agents,
+                subnet validators, and security systems across blockchain networks.
               </p>
             </div>
 
@@ -368,9 +367,7 @@ export default function Index() {
                   <Brain className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="font-semibold text-white mb-2">AI Agents</h3>
-                <p className="text-slate-400 text-sm">
-                  Autonomous intelligence gathering and analysis
-                </p>
+                <p className="text-slate-400 text-sm">Autonomous intelligence gathering and analysis</p>
               </div>
 
               <div className="flex items-center justify-center lg:block">
@@ -382,9 +379,7 @@ export default function Index() {
                   <Waves className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="font-semibold text-white mb-2">Gemini Subnet</h3>
-                <p className="text-slate-400 text-sm">
-                  Decentralized validation and scoring network
-                </p>
+                <p className="text-slate-400 text-sm">Decentralized validation and scoring network</p>
               </div>
 
               <div className="flex items-center justify-center lg:block">
@@ -395,12 +390,8 @@ export default function Index() {
                 <div className="w-16 h-16 bg-gradient-to-br from-violet-500 to-purple-600 rounded-xl flex items-center justify-center mx-auto mb-4">
                   <Shield className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="font-semibold text-white mb-2">
-                  Sentinel Layer
-                </h3>
-                <p className="text-slate-400 text-sm">
-                  Threat detection and security coordination
-                </p>
+                <h3 className="font-semibold text-white mb-2">Sentinel Layer</h3>
+                <p className="text-slate-400 text-sm">Threat detection and security coordination</p>
               </div>
             </div>
 
@@ -415,15 +406,12 @@ export default function Index() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-300 text-sm mb-4">
-                    Runtime environment for autonomous AI agents with built-in
-                    security, communication protocols, and blockchain
-                    integration.
+                    Runtime environment for autonomous AI agents with built-in security,
+                    communication protocols, and blockchain integration.
                   </p>
                   <div className="space-y-2">
                     <div className="flex justify-between text-xs">
-                      <span className="text-slate-400">
-                        PyTorch Integration
-                      </span>
+                      <span className="text-slate-400">PyTorch Integration</span>
                       <span className="text-emerald-400">Active</span>
                     </div>
                     <div className="flex justify-between text-xs">
@@ -452,15 +440,11 @@ export default function Index() {
                   </p>
                   <div className="space-y-2">
                     <div className="flex justify-between text-xs">
-                      <span className="text-slate-400">
-                        DarkGemini Crawlers
-                      </span>
+                      <span className="text-slate-400">DarkGemini Crawlers</span>
                       <span className="text-emerald-400">Online</span>
                     </div>
                     <div className="flex justify-between text-xs">
-                      <span className="text-slate-400">
-                        Pattern Recognition
-                      </span>
+                      <span className="text-slate-400">Pattern Recognition</span>
                       <span className="text-emerald-400">Learning</span>
                     </div>
                     <div className="flex justify-between text-xs">
@@ -480,8 +464,8 @@ export default function Index() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-300 text-sm mb-4">
-                    Decentralized coordination layer connecting TAO subnet
-                    validators with AI agents and external blockchain networks.
+                    Decentralized coordination layer connecting TAO subnet validators
+                    with AI agents and external blockchain networks.
                   </p>
                   <div className="space-y-2">
                     <div className="flex justify-between text-xs">
@@ -517,8 +501,8 @@ export default function Index() {
                 Use Cases in Action
               </h2>
               <p className="text-slate-300 text-lg max-w-3xl mx-auto">
-                See how COREWEAVER's AI agents are protecting blockchain
-                networks and empowering decentralized communities today.
+                See how COREWEAVER's AI agents are protecting blockchain networks
+                and empowering decentralized communities today.
               </p>
             </div>
 
@@ -529,37 +513,26 @@ export default function Index() {
                   <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-pink-600 rounded-xl flex items-center justify-center mb-4">
                     <Shield className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-xl text-white">
-                    🔍 Threat Intelligence
-                  </CardTitle>
-                  <CardDescription className="text-slate-400">
-                    DarkGemini Network
-                  </CardDescription>
+                  <CardTitle className="text-xl text-white">🔍 Threat Intelligence</CardTitle>
+                  <CardDescription className="text-slate-400">DarkGemini Network</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-300 text-sm mb-6">
-                    Autonomous agents crawl darknet sources to identify key
-                    leaks, phishing schemes, and emerging threats targeting
-                    blockchain users.
+                    Autonomous agents crawl darknet sources to identify key leaks,
+                    phishing schemes, and emerging threats targeting blockchain users.
                   </p>
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">
-                        24/7 darknet monitoring
-                      </span>
+                      <span className="text-xs text-slate-400">24/7 darknet monitoring</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">
-                        Private key leak detection
-                      </span>
+                      <span className="text-xs text-slate-400">Private key leak detection</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">
-                        Real-time threat alerts
-                      </span>
+                      <span className="text-xs text-slate-400">Real-time threat alerts</span>
                     </div>
                   </div>
                 </CardContent>
@@ -571,37 +544,26 @@ export default function Index() {
                   <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center mb-4">
                     <Waves className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-xl text-white">
-                    📈 Subnet Validation
-                  </CardTitle>
-                  <CardDescription className="text-slate-400">
-                    Gemini Subnet
-                  </CardDescription>
+                  <CardTitle className="text-xl text-white">📈 Subnet Validation</CardTitle>
+                  <CardDescription className="text-slate-400">Gemini Subnet</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-300 text-sm mb-6">
-                    Score AI signals using your own validator node, earn
-                    credibility and stake rewards while contributing to network
-                    security.
+                    Score AI signals using your own validator node, earn credibility
+                    and stake rewards while contributing to network security.
                   </p>
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">
-                        Decentralized validation
-                      </span>
+                      <span className="text-xs text-slate-400">Decentralized validation</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">
-                        Stake-based rewards
-                      </span>
+                      <span className="text-xs text-slate-400">Stake-based rewards</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">
-                        TAO integration
-                      </span>
+                      <span className="text-xs text-slate-400">TAO integration</span>
                     </div>
                   </div>
                 </CardContent>
@@ -613,37 +575,26 @@ export default function Index() {
                   <div className="w-12 h-12 bg-gradient-to-br from-violet-500 to-purple-600 rounded-xl flex items-center justify-center mb-4">
                     <Brain className="w-6 h-6 text-white" />
                   </div>
-                  <CardTitle className="text-xl text-white">
-                    🧠 AI UX for DAOs
-                  </CardTitle>
-                  <CardDescription className="text-slate-400">
-                    Project Maelstrom
-                  </CardDescription>
+                  <CardTitle className="text-xl text-white">🧠 AI UX for DAOs</CardTitle>
+                  <CardDescription className="text-slate-400">Project Maelstrom</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-300 text-sm mb-6">
-                    Build AI agents that model governance proposals, simulate
-                    voting outcomes, and flag potential risks for DAO
-                    communities.
+                    Build AI agents that model governance proposals, simulate voting
+                    outcomes, and flag potential risks for DAO communities.
                   </p>
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">
-                        Proposal simulation
-                      </span>
+                      <span className="text-xs text-slate-400">Proposal simulation</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">
-                        Risk assessment
-                      </span>
+                      <span className="text-xs text-slate-400">Risk assessment</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                      <span className="text-xs text-slate-400">
-                        Voting predictions
-                      </span>
+                      <span className="text-xs text-slate-400">Voting predictions</span>
                     </div>
                   </div>
                 </CardContent>
@@ -653,27 +604,19 @@ export default function Index() {
             {/* Proof Points */}
             <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-cyan-400 mb-2">
-                  150+
-                </div>
+                <div className="text-2xl md:text-3xl font-bold text-cyan-400 mb-2">150+</div>
                 <div className="text-slate-400 text-sm">Threats Detected</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-violet-400 mb-2">
-                  25
-                </div>
+                <div className="text-2xl md:text-3xl font-bold text-violet-400 mb-2">25</div>
                 <div className="text-slate-400 text-sm">Active Validators</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-emerald-400 mb-2">
-                  99.9%
-                </div>
+                <div className="text-2xl md:text-3xl font-bold text-emerald-400 mb-2">99.9%</div>
                 <div className="text-slate-400 text-sm">Uptime</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-pink-400 mb-2">
-                  5ms
-                </div>
+                <div className="text-2xl md:text-3xl font-bold text-pink-400 mb-2">5ms</div>
                 <div className="text-slate-400 text-sm">Response Time</div>
               </div>
             </div>
@@ -732,43 +675,27 @@ export default function Index() {
               <div className="relative">
                 <div className="flex items-center mb-8">
                   <div className="w-4 h-4 bg-emerald-400 rounded-full mr-4"></div>
-                  <Badge
-                    variant="secondary"
-                    className="bg-emerald-500/20 text-emerald-300 border-emerald-500/30"
-                  >
+                  <Badge variant="secondary" className="bg-emerald-500/20 text-emerald-300 border-emerald-500/30">
                     Q1 2024 - COMPLETE
                   </Badge>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">
-                        Core Architecture
-                      </h3>
-                      <p className="text-slate-400 text-sm">
-                        AgentOS foundation and basic AI agent framework
-                      </p>
+                      <h3 className="font-semibold text-white mb-2">Core Architecture</h3>
+                      <p className="text-slate-400 text-sm">AgentOS foundation and basic AI agent framework</p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">
-                        DarkGemini Alpha
-                      </h3>
-                      <p className="text-slate-400 text-sm">
-                        Initial threat intelligence crawlers and data collection
-                      </p>
+                      <h3 className="font-semibold text-white mb-2">DarkGemini Alpha</h3>
+                      <p className="text-slate-400 text-sm">Initial threat intelligence crawlers and data collection</p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">
-                        Research Phase
-                      </h3>
-                      <p className="text-slate-400 text-sm">
-                        Analysis of blockchain security challenges and AI
-                        applications
-                      </p>
+                      <h3 className="font-semibold text-white mb-2">Research Phase</h3>
+                      <p className="text-slate-400 text-sm">Analysis of blockchain security challenges and AI applications</p>
                     </CardContent>
                   </Card>
                 </div>
@@ -778,42 +705,27 @@ export default function Index() {
               <div className="relative">
                 <div className="flex items-center mb-8">
                   <div className="w-4 h-4 bg-yellow-400 rounded-full mr-4"></div>
-                  <Badge
-                    variant="secondary"
-                    className="bg-yellow-500/20 text-yellow-300 border-yellow-500/30"
-                  >
+                  <Badge variant="secondary" className="bg-yellow-500/20 text-yellow-300 border-yellow-500/30">
                     Q2 2024 - IN PROGRESS
                   </Badge>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">
-                        Subnet Integration
-                      </h3>
-                      <p className="text-slate-400 text-sm">
-                        Connect with TAO subnet and implement validator rewards
-                      </p>
+                      <h3 className="font-semibold text-white mb-2">Subnet Integration</h3>
+                      <p className="text-slate-400 text-sm">Connect with TAO subnet and implement validator rewards</p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">
-                        Threat Intel Beta
-                      </h3>
-                      <p className="text-slate-400 text-sm">
-                        Enhanced pattern recognition and real-time alert system
-                      </p>
+                      <h3 className="font-semibold text-white mb-2">Threat Intel Beta</h3>
+                      <p className="text-slate-400 text-sm">Enhanced pattern recognition and real-time alert system</p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">
-                        Developer APIs
-                      </h3>
-                      <p className="text-slate-400 text-sm">
-                        Public APIs for threat data access and agent development
-                      </p>
+                      <h3 className="font-semibold text-white mb-2">Developer APIs</h3>
+                      <p className="text-slate-400 text-sm">Public APIs for threat data access and agent development</p>
                     </CardContent>
                   </Card>
                 </div>
@@ -823,43 +735,27 @@ export default function Index() {
               <div className="relative">
                 <div className="flex items-center mb-8">
                   <div className="w-4 h-4 bg-slate-400 rounded-full mr-4"></div>
-                  <Badge
-                    variant="secondary"
-                    className="bg-slate-500/20 text-slate-300 border-slate-500/30"
-                  >
+                  <Badge variant="secondary" className="bg-slate-500/20 text-slate-300 border-slate-500/30">
                     Q3-Q4 2024 - PLANNED
                   </Badge>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">
-                        Maelstrom Launch
-                      </h3>
-                      <p className="text-slate-400 text-sm">
-                        Full DAO governance AI and simulation platform
-                      </p>
+                      <h3 className="font-semibold text-white mb-2">Maelstrom Launch</h3>
+                      <p className="text-slate-400 text-sm">Full DAO governance AI and simulation platform</p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">
-                        Cross-chain Support
-                      </h3>
-                      <p className="text-slate-400 text-sm">
-                        Expand beyond Bitcoin to Ethereum, Solana, and others
-                      </p>
+                      <h3 className="font-semibold text-white mb-2">Cross-chain Support</h3>
+                      <p className="text-slate-400 text-sm">Expand beyond Bitcoin to Ethereum, Solana, and others</p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold text-white mb-2">
-                        Community Platform
-                      </h3>
-                      <p className="text-slate-400 text-sm">
-                        Open-source tools, documentation, and contributor
-                        onboarding
-                      </p>
+                      <h3 className="font-semibold text-white mb-2">Community Platform</h3>
+                      <p className="text-slate-400 text-sm">Open-source tools, documentation, and contributor onboarding</p>
                     </CardContent>
                   </Card>
                 </div>
@@ -868,36 +764,110 @@ export default function Index() {
           </div>
         </section>
 
-        {/* Community & Footer */}
-        <section id="community" className="py-24">
-          <div className="max-w-7xl mx-auto px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-                Join the Alliance
-              </h2>
-              <p className="text-slate-300 text-lg max-w-3xl mx-auto mb-8">
-                Contribute to the future of Blockchain through open-source
-                development, research collaboration, and community-driven
-                innovation.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        {/* Join Section */}
+        <section id="join" className="py-24 bg-slate-900/50">
+          <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <Badge
+              variant="secondary"
+              className="mb-6 bg-slate-800/50 text-slate-300 border-slate-700"
+            >
+              Early Access
+            </Badge>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
+              Join Subnet Alpha
+            </h2>
+            <p className="text-slate-300 text-lg mb-12 max-w-2xl mx-auto">
+              Get early access to COREWEAVER's AI coordination layer.
+              Run validator nodes, contribute threat intelligence, and help secure blockchain networks.
+            </p>
+
+            {/* Waitlist Form */}
+            <Card className="bg-slate-800/30 border-slate-700/50 p-8 mb-12">
+              <form className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-sm font-medium text-slate-300 mb-2">
+                      Email Address
+                    </label>
+                    <input
+                      type="email"
+                      className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:ring-2 focus:ring-cyan-400 focus:border-transparent"
+                      placeholder="your@email.com"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-slate-300 mb-2">
+                      Role/Interest
+                    </label>
+                    <select className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white focus:ring-2 focus:ring-cyan-400 focus:border-transparent">
+                      <option>Validator Node Operator</option>
+                      <option>AI/ML Developer</option>
+                      <option>Security Researcher</option>
+                      <option>DAO Contributor</option>
+                      <option>General Interest</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-slate-300 mb-2">
+                    Technical Background (Optional)
+                  </label>
+                  <textarea
+                    className="w-full px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:ring-2 focus:ring-cyan-400 focus:border-transparent"
+                    rows={3}
+                    placeholder="Tell us about your experience with blockchain, AI, or security..."
+                  />
+                </div>
                 <Button
                   size="lg"
-                  className="bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700"
+                  className="w-full bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700"
                 >
-                  <Github className="w-5 h-5 mr-2" />
-                  Contribute on GitHub
+                  Join Alpha Waitlist
+                  <ChevronRight className="w-5 h-5 ml-2" />
                 </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-slate-600 text-slate-300 hover:bg-slate-800"
-                >
-                  <GraduationCap className="w-5 h-5 mr-2" />
+              </form>
+            </Card>
+
+            {/* Alternative Actions */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <Card className="bg-slate-800/30 border-slate-700/50 p-6 hover:bg-slate-800/50 transition-colors">
+                <Github className="w-8 h-8 text-cyan-400 mx-auto mb-4" />
+                <h3 className="font-semibold text-white mb-2">Contribute Code</h3>
+                <p className="text-slate-400 text-sm mb-4">
+                  Help build the open-source AI coordination layer
+                </p>
+                <Button variant="ghost" size="sm" className="w-full">
+                  View GitHub
+                </Button>
+              </Card>
+
+              <Card className="bg-slate-800/30 border-slate-700/50 p-6 hover:bg-slate-800/50 transition-colors">
+                <GraduationCap className="w-8 h-8 text-violet-400 mx-auto mb-4" />
+                <h3 className="font-semibold text-white mb-2">Learn & Research</h3>
+                <p className="text-slate-400 text-sm mb-4">
+                  Access documentation, guides, and research papers
+                </p>
+                <Button variant="ghost" size="sm" className="w-full">
                   Visit Academy
                 </Button>
-              </div>
+              </Card>
+
+              <Card className="bg-slate-800/30 border-slate-700/50 p-6 hover:bg-slate-800/50 transition-colors">
+                <Mail className="w-8 h-8 text-emerald-400 mx-auto mb-4" />
+                <h3 className="font-semibold text-white mb-2">Stay Updated</h3>
+                <p className="text-slate-400 text-sm mb-4">
+                  Get the latest updates on development progress
+                </p>
+                <Button variant="ghost" size="sm" className="w-full">
+                  Newsletter
+                </Button>
+              </Card>
             </div>
+          </div>
+        </section>
+
+        {/* Footer */}
+        <section className="py-24">
 
             {/* Footer */}
             <footer className="border-t border-slate-800/50 pt-16">
