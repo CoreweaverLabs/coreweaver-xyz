@@ -260,24 +260,29 @@ export default function Index() {
                 className="mb-6 bg-slate-800/50 text-slate-300 border-slate-700"
               >
                 <Zap className="w-4 h-4 mr-2" />
-                Universal Quantum Algorithm Standard
+                AI-Driven Blockchain Security Platform
               </Badge>
 
               {/* Main Heading */}
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 bg-gradient-to-b from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-b from-white via-slate-200 to-slate-400 bg-clip-text text-transparent">
                 Autonomous Systems
                 <br />
                 <span className="bg-gradient-to-r from-cyan-400 via-violet-500 to-pink-500 bg-clip-text text-transparent">
-                  for Blockchain Innovation
+                  for Blockchain Security
                 </span>
               </h1>
 
+              {/* Subheadline */}
+              <h2 className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto font-medium">
+                A secure AI coordination layer for crypto, privacy, and
+                distributed systems
+              </h2>
+
               {/* Description */}
-              <p className="text-xl md:text-2xl text-slate-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-                Establishing a universal standard for quantum algorithm design,
-                powering autonomous systems that learn, adapt, and collaborate
-                within distributed networks while ensuring privacy, security,
-                and accessibility.
+              <p className="text-lg md:text-xl text-slate-400 mb-12 max-w-4xl mx-auto leading-relaxed">
+                COREWEAVER builds autonomous AI agents that protect blockchain
+                networks through threat intelligence, privacy analysis, and
+                collaborative security research.
               </p>
 
               {/* CTA Buttons */}
@@ -285,17 +290,23 @@ export default function Index() {
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 text-lg px-8 py-6"
+                  asChild
                 >
-                  Explore Ecosystem
-                  <ChevronRight className="w-5 h-5 ml-2" />
+                  <a href="#stack">
+                    View System Architecture
+                    <ChevronRight className="w-5 h-5 ml-2" />
+                  </a>
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-slate-600 text-slate-300 hover:bg-slate-800 text-lg px-8 py-6"
+                  asChild
                 >
-                  View Research
-                  <ExternalLink className="w-5 h-5 ml-2" />
+                  <a href="#join">
+                    Join Subnet Alpha
+                    <ExternalLink className="w-5 h-5 ml-2" />
+                  </a>
                 </Button>
               </div>
 
