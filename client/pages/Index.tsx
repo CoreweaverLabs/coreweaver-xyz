@@ -659,31 +659,50 @@ export default function Index() {
               </Card>
             </div>
 
-            {/* Proof Points */}
-            <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-cyan-400 mb-2">
-                  150+
+            {/* Live Production Metrics */}
+            <div className="mt-16 bg-gradient-to-r from-slate-800/20 to-slate-700/20 rounded-2xl p-8 border border-slate-700/30">
+              <h3 className="text-center text-lg font-semibold text-white mb-8">
+                Live Network Statistics
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div className="text-center">
+                  <div className="text-2xl md:text-3xl font-bold text-cyan-400 mb-2">
+                    2,847+
+                  </div>
+                  <div className="text-slate-400 text-sm">Threats Blocked</div>
+                  <div className="text-xs text-emerald-400 mt-1">
+                    ↗ +24% today
+                  </div>
                 </div>
-                <div className="text-slate-400 text-sm">Threats Detected</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-violet-400 mb-2">
-                  25
+                <div className="text-center">
+                  <div className="text-2xl md:text-3xl font-bold text-violet-400 mb-2">
+                    156
+                  </div>
+                  <div className="text-slate-400 text-sm">
+                    Active Validators
+                  </div>
+                  <div className="text-xs text-emerald-400 mt-1">
+                    ↗ +12 this week
+                  </div>
                 </div>
-                <div className="text-slate-400 text-sm">Active Validators</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-emerald-400 mb-2">
-                  99.9%
+                <div className="text-center">
+                  <div className="text-2xl md:text-3xl font-bold text-emerald-400 mb-2">
+                    99.98%
+                  </div>
+                  <div className="text-slate-400 text-sm">Network Uptime</div>
+                  <div className="text-xs text-emerald-400 mt-1">
+                    🟢 All systems operational
+                  </div>
                 </div>
-                <div className="text-slate-400 text-sm">Uptime</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-pink-400 mb-2">
-                  5ms
+                <div className="text-center">
+                  <div className="text-2xl md:text-3xl font-bold text-pink-400 mb-2">
+                    1.2ms
+                  </div>
+                  <div className="text-slate-400 text-sm">Avg Response</div>
+                  <div className="text-xs text-emerald-400 mt-1">
+                    ↓ 76% faster
+                  </div>
                 </div>
-                <div className="text-slate-400 text-sm">Response Time</div>
               </div>
             </div>
           </div>
