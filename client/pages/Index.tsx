@@ -1310,11 +1310,12 @@ export default function Index() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div>
                   <h3 className="text-xl font-semibold text-white mb-2">
-                    Stay Connected
+                    Partnership Updates
                   </h3>
                   <p className="text-slate-300">
-                    Get the latest updates on AI security research, Bittensor
-                    integration, and Dark Gemini Alliance developments.
+                    Stay informed about the Gemini X Kraken collaboration, new
+                    AI security features, Bittensor integration milestones, and
+                    enterprise solutions.
                   </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-3">
