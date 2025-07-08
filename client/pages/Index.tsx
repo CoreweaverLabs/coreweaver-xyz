@@ -341,89 +341,164 @@ export default function Index() {
           </div>
         </section>
 
-        {/* Mission Section */}
-        <section id="about" className="py-24 bg-slate-900/50">
+        {/* System Architecture Section */}
+        <section id="stack" className="py-24 bg-slate-900/50">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-              <div>
-                <Badge
-                  variant="secondary"
-                  className="mb-6 bg-slate-800/50 text-slate-300 border-slate-700"
-                >
-                  Our Mission
-                </Badge>
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-                  Protect, Create, Evolve
-                </h2>
-                <p className="text-slate-300 text-lg mb-8 leading-relaxed">
-                  COREWEAVER.xyz serves as the central portal for the Dark
-                  Gemini Alliance (Alliantia Geminus Obscurus), revolutionizing
-                  Blockchain development through innovative open-source tools
-                  and collaborative research.
+            <div className="text-center mb-16">
+              <Badge
+                variant="secondary"
+                className="mb-6 bg-slate-800/50 text-slate-300 border-slate-700"
+              >
+                System Architecture
+              </Badge>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
+                How COREWEAVER Works
+              </h2>
+              <p className="text-slate-300 text-lg max-w-3xl mx-auto mb-12">
+                A distributed AI coordination layer that connects autonomous
+                agents, subnet validators, and security systems across
+                blockchain networks.
+              </p>
+            </div>
+
+            {/* Architecture Flow */}
+            <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 mb-16">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-emerald-500 to-green-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Brain className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="font-semibold text-white mb-2">AI Agents</h3>
+                <p className="text-slate-400 text-sm">
+                  Autonomous intelligence gathering and analysis
                 </p>
-                <div className="space-y-4">
-                  <div className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-emerald-500/20 rounded-full flex items-center justify-center mt-1">
-                      <Shield className="w-3 h-3 text-emerald-400" />
-                    </div>
-                    <div>
-                      <div className="font-semibold text-white">
-                        Privacy & Security
-                      </div>
-                      <div className="text-slate-400 text-sm">
-                        Advanced encryption and privacy protocols
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-cyan-500/20 rounded-full flex items-center justify-center mt-1">
-                      <Cpu className="w-3 h-3 text-cyan-400" />
-                    </div>
-                    <div>
-                      <div className="font-semibold text-white">
-                        Quantum Innovation
-                      </div>
-                      <div className="text-slate-400 text-sm">
-                        Post-quantum cryptography and AI systems
-                      </div>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-violet-500/20 rounded-full flex items-center justify-center mt-1">
-                      <Waves className="w-3 h-3 text-violet-400" />
-                    </div>
-                    <div>
-                      <div className="font-semibold text-white">
-                        Distributed Networks
-                      </div>
-                      <div className="text-slate-400 text-sm">
-                        Autonomous systems and collaborative research
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
-              <div className="relative">
-                <div className="aspect-square rounded-2xl bg-gradient-to-br from-cyan-500/10 to-violet-600/10 border border-slate-700/50 p-8 backdrop-blur-sm">
-                  <div className="grid grid-cols-3 gap-4 h-full">
-                    {techStack.map((tech, index) => (
-                      <Card
-                        key={index}
-                        className="bg-slate-800/30 border-slate-700/50 hover:bg-slate-800/50 transition-colors"
-                      >
-                        <CardContent className="p-4 text-center">
-                          <div className="text-xs font-medium text-white mb-1">
-                            {tech.name}
-                          </div>
-                          <div className="text-xs text-slate-400">
-                            {tech.description}
-                          </div>
-                        </CardContent>
-                      </Card>
-                    ))}
-                  </div>
-                </div>
+
+              <div className="flex items-center justify-center lg:block">
+                <ChevronRight className="w-6 h-6 text-slate-500 rotate-90 lg:rotate-0" />
               </div>
+
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Waves className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="font-semibold text-white mb-2">Gemini Subnet</h3>
+                <p className="text-slate-400 text-sm">
+                  Decentralized validation and scoring network
+                </p>
+              </div>
+
+              <div className="flex items-center justify-center lg:block">
+                <ChevronRight className="w-6 h-6 text-slate-500 rotate-90 lg:rotate-0" />
+              </div>
+
+              <div className="text-center">
+                <div className="w-16 h-16 bg-gradient-to-br from-violet-500 to-purple-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                  <Shield className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="font-semibold text-white mb-2">
+                  Sentinel Layer
+                </h3>
+                <p className="text-slate-400 text-sm">
+                  Threat detection and security coordination
+                </p>
+              </div>
+            </div>
+
+            {/* Tech Components */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <Card className="bg-slate-800/30 border-slate-700/50">
+                <CardHeader>
+                  <CardTitle className="text-white flex items-center">
+                    <Cpu className="w-5 h-5 mr-2 text-cyan-400" />
+                    AgentOS
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-300 text-sm mb-4">
+                    Runtime environment for autonomous AI agents with built-in
+                    security, communication protocols, and blockchain
+                    integration.
+                  </p>
+                  <div className="space-y-2">
+                    <div className="flex justify-between text-xs">
+                      <span className="text-slate-400">
+                        PyTorch Integration
+                      </span>
+                      <span className="text-emerald-400">Active</span>
+                    </div>
+                    <div className="flex justify-between text-xs">
+                      <span className="text-slate-400">Secure Messaging</span>
+                      <span className="text-emerald-400">Active</span>
+                    </div>
+                    <div className="flex justify-between text-xs">
+                      <span className="text-slate-400">Blockchain APIs</span>
+                      <span className="text-emerald-400">Active</span>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-slate-800/30 border-slate-700/50">
+                <CardHeader>
+                  <CardTitle className="text-white flex items-center">
+                    <Brain className="w-5 h-5 mr-2 text-violet-400" />
+                    Threat Intelligence
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-300 text-sm mb-4">
+                    Real-time analysis of darknet sources, transaction patterns,
+                    and security vulnerabilities across blockchain networks.
+                  </p>
+                  <div className="space-y-2">
+                    <div className="flex justify-between text-xs">
+                      <span className="text-slate-400">
+                        DarkGemini Crawlers
+                      </span>
+                      <span className="text-emerald-400">Online</span>
+                    </div>
+                    <div className="flex justify-between text-xs">
+                      <span className="text-slate-400">
+                        Pattern Recognition
+                      </span>
+                      <span className="text-emerald-400">Learning</span>
+                    </div>
+                    <div className="flex justify-between text-xs">
+                      <span className="text-slate-400">Alert System</span>
+                      <span className="text-yellow-400">Beta</span>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-slate-800/30 border-slate-700/50">
+                <CardHeader>
+                  <CardTitle className="text-white flex items-center">
+                    <Waves className="w-5 h-5 mr-2 text-emerald-400" />
+                    Subnet Bridge
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-300 text-sm mb-4">
+                    Decentralized coordination layer connecting TAO subnet
+                    validators with AI agents and external blockchain networks.
+                  </p>
+                  <div className="space-y-2">
+                    <div className="flex justify-between text-xs">
+                      <span className="text-slate-400">TAO Integration</span>
+                      <span className="text-yellow-400">Development</span>
+                    </div>
+                    <div className="flex justify-between text-xs">
+                      <span className="text-slate-400">Consensus Protocol</span>
+                      <span className="text-yellow-400">Testing</span>
+                    </div>
+                    <div className="flex justify-between text-xs">
+                      <span className="text-slate-400">Cross-chain APIs</span>
+                      <span className="text-slate-400">Planned</span>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
