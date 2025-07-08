@@ -517,16 +517,17 @@ export default function Index() {
             <div className="text-center mb-16">
               <Badge
                 variant="secondary"
-                className="mb-6 bg-slate-800/50 text-slate-300 border-slate-700"
+                className="mb-6 bg-emerald-500/20 text-emerald-300 border-emerald-500/30"
               >
-                Real-World Applications
+                🚀 Live Production Systems
               </Badge>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-                Use Cases in Action
+                Powered by Gemini X Kraken
               </h2>
               <p className="text-slate-300 text-lg max-w-3xl mx-auto">
-                See how COREWEAVER's AI agents are protecting blockchain
-                networks and empowering decentralized communities today.
+                Experience real-time blockchain security through our partnership
+                with Gemini and Kraken. Our AI agents are actively protecting
+                networks and empowering institutional-grade security solutions.
               </p>
             </div>
 
