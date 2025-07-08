@@ -146,10 +146,16 @@ export default function Index() {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
               <a
-                href="#about"
+                href="#stack"
                 className="text-slate-300 hover:text-white transition-colors"
               >
-                About
+                Stack
+              </a>
+              <a
+                href="#use-cases"
+                className="text-slate-300 hover:text-white transition-colors"
+              >
+                Use Cases
               </a>
               <a
                 href="#ecosystem"
@@ -158,16 +164,10 @@ export default function Index() {
                 Ecosystem
               </a>
               <a
-                href="#research"
+                href="#roadmap"
                 className="text-slate-300 hover:text-white transition-colors"
               >
-                Research
-              </a>
-              <a
-                href="#community"
-                className="text-slate-300 hover:text-white transition-colors"
-              >
-                Community
+                Roadmap
               </a>
             </nav>
 
@@ -205,10 +205,16 @@ export default function Index() {
           <div className="md:hidden border-t border-slate-800/50 bg-slate-950/95 backdrop-blur-xl">
             <div className="px-6 py-4 space-y-3">
               <a
-                href="#about"
+                href="#stack"
                 className="block text-slate-300 hover:text-white transition-colors"
               >
-                About
+                Stack
+              </a>
+              <a
+                href="#use-cases"
+                className="block text-slate-300 hover:text-white transition-colors"
+              >
+                Use Cases
               </a>
               <a
                 href="#ecosystem"
@@ -217,16 +223,10 @@ export default function Index() {
                 Ecosystem
               </a>
               <a
-                href="#research"
+                href="#roadmap"
                 className="block text-slate-300 hover:text-white transition-colors"
               >
-                Research
-              </a>
-              <a
-                href="#community"
-                className="block text-slate-300 hover:text-white transition-colors"
-              >
-                Community
+                Roadmap
               </a>
               <div className="pt-3 border-t border-slate-800/50">
                 <Button
