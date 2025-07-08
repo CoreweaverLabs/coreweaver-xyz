@@ -478,12 +478,14 @@ export default function Index() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-300 text-sm mb-4">
-                    Decentralized coordination layer connecting TAO subnet
+                    Decentralized coordination layer connecting Bittensor subnet
                     validators with AI agents and external blockchain networks.
                   </p>
                   <div className="space-y-2">
                     <div className="flex justify-between text-xs">
-                      <span className="text-slate-400">TAO Integration</span>
+                      <span className="text-slate-400">
+                        Bittensor Integration
+                      </span>
                       <span className="text-yellow-400">Development</span>
                     </div>
                     <div className="flex justify-between text-xs">
@@ -598,7 +600,7 @@ export default function Index() {
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
                       <span className="text-xs text-slate-400">
-                        TAO integration
+                        Bittensor integration
                       </span>
                     </div>
                   </div>
