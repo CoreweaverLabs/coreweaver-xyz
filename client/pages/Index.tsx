@@ -726,7 +726,7 @@ export default function Index() {
             </div>
 
             <div className="space-y-12">
-              {/* Q1 2024 */}
+              {/* 2024 Foundation */}
               <div className="relative">
                 <div className="flex items-center mb-8">
                   <div className="w-4 h-4 bg-emerald-400 rounded-full mr-4"></div>
@@ -734,45 +734,46 @@ export default function Index() {
                     variant="secondary"
                     className="bg-emerald-500/20 text-emerald-300 border-emerald-500/30"
                   >
-                    Q1 2024 - COMPLETE
+                    2024 - COMPLETE
                   </Badge>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
                       <h3 className="font-semibold text-white mb-2">
-                        Core Architecture
+                        Core Infrastructure
                       </h3>
                       <p className="text-slate-400 text-sm">
-                        AgentOS foundation and basic AI agent framework
+                        AgentOS foundation, DarkGemini crawlers, and system
+                        architecture
                       </p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
                       <h3 className="font-semibold text-white mb-2">
-                        DarkGemini Alpha
+                        Research & Development
                       </h3>
                       <p className="text-slate-400 text-sm">
-                        Initial threat intelligence crawlers and data collection
+                        AI threat intelligence models and blockchain security
+                        analysis
                       </p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
                       <h3 className="font-semibold text-white mb-2">
-                        Research Phase
+                        Initial Deployments
                       </h3>
                       <p className="text-slate-400 text-sm">
-                        Analysis of blockchain security challenges and AI
-                        applications
+                        Alpha testing of threat detection and monitoring systems
                       </p>
                     </CardContent>
                   </Card>
                 </div>
               </div>
 
-              {/* Q2 2024 */}
+              {/* Q1 2025 */}
               <div className="relative">
                 <div className="flex items-center mb-8">
                   <div className="w-4 h-4 bg-yellow-400 rounded-full mr-4"></div>
@@ -780,7 +781,7 @@ export default function Index() {
                     variant="secondary"
                     className="bg-yellow-500/20 text-yellow-300 border-yellow-500/30"
                   >
-                    Q2 2024 - IN PROGRESS
+                    Q1 2025 - IN PROGRESS
                   </Badge>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
@@ -790,7 +791,8 @@ export default function Index() {
                         Subnet Integration
                       </h3>
                       <p className="text-slate-400 text-sm">
-                        Connect with TAO subnet and implement validator rewards
+                        TAO subnet validator nodes and decentralized scoring
+                        system
                       </p>
                     </CardContent>
                   </Card>
@@ -800,32 +802,33 @@ export default function Index() {
                         Threat Intel Beta
                       </h3>
                       <p className="text-slate-400 text-sm">
-                        Enhanced pattern recognition and real-time alert system
+                        Real-time alert system and pattern recognition
+                        deployment
                       </p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
                       <h3 className="font-semibold text-white mb-2">
-                        Developer APIs
+                        Developer Platform
                       </h3>
                       <p className="text-slate-400 text-sm">
-                        Public APIs for threat data access and agent development
+                        Public APIs, documentation, and agent development tools
                       </p>
                     </CardContent>
                   </Card>
                 </div>
               </div>
 
-              {/* Q3-Q4 2024 */}
+              {/* Q2-Q3 2025 */}
               <div className="relative">
                 <div className="flex items-center mb-8">
-                  <div className="w-4 h-4 bg-slate-400 rounded-full mr-4"></div>
+                  <div className="w-4 h-4 bg-cyan-400 rounded-full mr-4"></div>
                   <Badge
                     variant="secondary"
-                    className="bg-slate-500/20 text-slate-300 border-slate-500/30"
+                    className="bg-cyan-500/20 text-cyan-300 border-cyan-500/30"
                   >
-                    Q3-Q4 2024 - PLANNED
+                    Q2-Q3 2025 - UPCOMING
                   </Badge>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
@@ -835,28 +838,77 @@ export default function Index() {
                         Maelstrom Launch
                       </h3>
                       <p className="text-slate-400 text-sm">
-                        Full DAO governance AI and simulation platform
+                        Full DAO governance AI, simulation platform, and UX
+                        tools
                       </p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
                       <h3 className="font-semibold text-white mb-2">
-                        Cross-chain Support
+                        Cross-chain Expansion
                       </h3>
                       <p className="text-slate-400 text-sm">
-                        Expand beyond Bitcoin to Ethereum, Solana, and others
+                        Support for Ethereum, Solana, and major blockchain
+                        networks
                       </p>
                     </CardContent>
                   </Card>
                   <Card className="bg-slate-800/30 border-slate-700/50">
                     <CardContent className="p-6">
                       <h3 className="font-semibold text-white mb-2">
-                        Community Platform
+                        Enterprise Solutions
                       </h3>
                       <p className="text-slate-400 text-sm">
-                        Open-source tools, documentation, and contributor
-                        onboarding
+                        Institutional-grade security tools and compliance
+                        features
+                      </p>
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
+
+              {/* Q4 2025 & Beyond */}
+              <div className="relative">
+                <div className="flex items-center mb-8">
+                  <div className="w-4 h-4 bg-violet-400 rounded-full mr-4"></div>
+                  <Badge
+                    variant="secondary"
+                    className="bg-violet-500/20 text-violet-300 border-violet-500/30"
+                  >
+                    Q4 2025 & BEYOND
+                  </Badge>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
+                  <Card className="bg-slate-800/30 border-slate-700/50">
+                    <CardContent className="p-6">
+                      <h3 className="font-semibold text-white mb-2">
+                        Global Network
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Worldwide deployment of autonomous AI security agents
+                      </p>
+                    </CardContent>
+                  </Card>
+                  <Card className="bg-slate-800/30 border-slate-700/50">
+                    <CardContent className="p-6">
+                      <h3 className="font-semibold text-white mb-2">
+                        Community Ecosystem
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Open-source marketplace and developer contribution
+                        platform
+                      </p>
+                    </CardContent>
+                  </Card>
+                  <Card className="bg-slate-800/30 border-slate-700/50">
+                    <CardContent className="p-6">
+                      <h3 className="font-semibold text-white mb-2">
+                        Next-Gen AI
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Advanced autonomous systems and quantum-resistant
+                        security
                       </p>
                     </CardContent>
                   </Card>
