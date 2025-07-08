@@ -503,8 +503,185 @@ export default function Index() {
           </div>
         </section>
 
+        {/* Use Cases Section */}
+        <section id="use-cases" className="py-24">
+          <div className="max-w-7xl mx-auto px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <Badge
+                variant="secondary"
+                className="mb-6 bg-slate-800/50 text-slate-300 border-slate-700"
+              >
+                Real-World Applications
+              </Badge>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
+                Use Cases in Action
+              </h2>
+              <p className="text-slate-300 text-lg max-w-3xl mx-auto">
+                See how COREWEAVER's AI agents are protecting blockchain
+                networks and empowering decentralized communities today.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              {/* DarkGemini Use Case */}
+              <Card className="bg-slate-800/30 border-slate-700/50 hover:bg-slate-800/50 transition-all duration-300 group">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-pink-600 rounded-xl flex items-center justify-center mb-4">
+                    <Shield className="w-6 h-6 text-white" />
+                  </div>
+                  <CardTitle className="text-xl text-white">
+                    🔍 Threat Intelligence
+                  </CardTitle>
+                  <CardDescription className="text-slate-400">
+                    DarkGemini Network
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-300 text-sm mb-6">
+                    Autonomous agents crawl darknet sources to identify key
+                    leaks, phishing schemes, and emerging threats targeting
+                    blockchain users.
+                  </p>
+                  <div className="space-y-3">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                      <span className="text-xs text-slate-400">
+                        24/7 darknet monitoring
+                      </span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                      <span className="text-xs text-slate-400">
+                        Private key leak detection
+                      </span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="text-xs text-slate-400">
+                        Real-time threat alerts
+                      </span>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Gemini Subnet Use Case */}
+              <Card className="bg-slate-800/30 border-slate-700/50 hover:bg-slate-800/50 transition-all duration-300 group">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center mb-4">
+                    <Waves className="w-6 h-6 text-white" />
+                  </div>
+                  <CardTitle className="text-xl text-white">
+                    📈 Subnet Validation
+                  </CardTitle>
+                  <CardDescription className="text-slate-400">
+                    Gemini Subnet
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-300 text-sm mb-6">
+                    Score AI signals using your own validator node, earn
+                    credibility and stake rewards while contributing to network
+                    security.
+                  </p>
+                  <div className="space-y-3">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                      <span className="text-xs text-slate-400">
+                        Decentralized validation
+                      </span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                      <span className="text-xs text-slate-400">
+                        Stake-based rewards
+                      </span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="text-xs text-slate-400">
+                        TAO integration
+                      </span>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
+              {/* Maelstrom Use Case */}
+              <Card className="bg-slate-800/30 border-slate-700/50 hover:bg-slate-800/50 transition-all duration-300 group">
+                <CardHeader>
+                  <div className="w-12 h-12 bg-gradient-to-br from-violet-500 to-purple-600 rounded-xl flex items-center justify-center mb-4">
+                    <Brain className="w-6 h-6 text-white" />
+                  </div>
+                  <CardTitle className="text-xl text-white">
+                    🧠 AI UX for DAOs
+                  </CardTitle>
+                  <CardDescription className="text-slate-400">
+                    Project Maelstrom
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-slate-300 text-sm mb-6">
+                    Build AI agents that model governance proposals, simulate
+                    voting outcomes, and flag potential risks for DAO
+                    communities.
+                  </p>
+                  <div className="space-y-3">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                      <span className="text-xs text-slate-400">
+                        Proposal simulation
+                      </span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
+                      <span className="text-xs text-slate-400">
+                        Risk assessment
+                      </span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
+                      <span className="text-xs text-slate-400">
+                        Voting predictions
+                      </span>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Proof Points */}
+            <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="text-2xl md:text-3xl font-bold text-cyan-400 mb-2">
+                  150+
+                </div>
+                <div className="text-slate-400 text-sm">Threats Detected</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl md:text-3xl font-bold text-violet-400 mb-2">
+                  25
+                </div>
+                <div className="text-slate-400 text-sm">Active Validators</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl md:text-3xl font-bold text-emerald-400 mb-2">
+                  99.9%
+                </div>
+                <div className="text-slate-400 text-sm">Uptime</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl md:text-3xl font-bold text-pink-400 mb-2">
+                  5ms
+                </div>
+                <div className="text-slate-400 text-sm">Response Time</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Sub-Brands Ecosystem */}
-        <section id="ecosystem" className="py-24">
+        <section id="ecosystem" className="py-24 bg-slate-900/50">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="text-center mb-16">
               <Badge
