@@ -716,75 +716,154 @@ export default function Index() {
                 variant="secondary"
                 className="mb-6 bg-slate-800/50 text-slate-300 border-slate-700"
               >
-                Research & Development
+                Development Roadmap
               </Badge>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-                Blockchain R&D Challenges
+                Building the Future
               </h2>
               <p className="text-slate-300 text-lg max-w-3xl mx-auto">
-                Addressing critical challenges in Blockchain development through
-                innovative research and cutting-edge technology solutions.
+                Our development milestones and commitments for delivering
+                autonomous AI security systems to blockchain networks.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {[
-                {
-                  title: "Private Key Management",
-                  desc: "Multisig & KeyGuard security",
-                  icon: <Lock className="w-6 h-6" />,
-                },
-                {
-                  title: "Coin Selection",
-                  desc: "Privacy-focused algorithms",
-                  icon: <Cpu className="w-6 h-6" />,
-                },
-                {
-                  title: "P2P Networking",
-                  desc: "BIP 324 & encrypted communication",
-                  icon: <Waves className="w-6 h-6" />,
-                },
-                {
-                  title: "Layer 2 Solutions",
-                  desc: "Beyond Lightning innovations",
-                  icon: <Zap className="w-6 h-6" />,
-                },
-                {
-                  title: "Mining Robustness",
-                  desc: "Stratum V2 & decentralization",
-                  icon: <Hammer className="w-6 h-6" />,
-                },
-                {
-                  title: "Privacy Protocols",
-                  desc: "SNICKER, PayJoin, CoinJoin",
-                  icon: <Shield className="w-6 h-6" />,
-                },
-                {
-                  title: "Fuzz Testing",
-                  desc: "FuzzShield security auditing",
-                  icon: <FlaskConical className="w-6 h-6" />,
-                },
-                {
-                  title: "AI-Driven Analysis",
-                  desc: "Threat detection & synthetic data",
-                  icon: <Brain className="w-6 h-6" />,
-                },
-              ].map((item, index) => (
-                <Card
-                  key={index}
-                  className="bg-slate-800/30 border-slate-700/50 hover:bg-slate-800/50 transition-all group"
-                >
-                  <CardContent className="p-6 text-center">
-                    <div className="w-12 h-12 bg-gradient-to-br from-cyan-500/20 to-violet-600/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                      {item.icon}
-                    </div>
-                    <h3 className="font-semibold text-white mb-2">
-                      {item.title}
-                    </h3>
-                    <p className="text-slate-400 text-sm">{item.desc}</p>
-                  </CardContent>
-                </Card>
-              ))}
+            <div className="space-y-12">
+              {/* Q1 2024 */}
+              <div className="relative">
+                <div className="flex items-center mb-8">
+                  <div className="w-4 h-4 bg-emerald-400 rounded-full mr-4"></div>
+                  <Badge
+                    variant="secondary"
+                    className="bg-emerald-500/20 text-emerald-300 border-emerald-500/30"
+                  >
+                    Q1 2024 - COMPLETE
+                  </Badge>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
+                  <Card className="bg-slate-800/30 border-slate-700/50">
+                    <CardContent className="p-6">
+                      <h3 className="font-semibold text-white mb-2">
+                        Core Architecture
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        AgentOS foundation and basic AI agent framework
+                      </p>
+                    </CardContent>
+                  </Card>
+                  <Card className="bg-slate-800/30 border-slate-700/50">
+                    <CardContent className="p-6">
+                      <h3 className="font-semibold text-white mb-2">
+                        DarkGemini Alpha
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Initial threat intelligence crawlers and data collection
+                      </p>
+                    </CardContent>
+                  </Card>
+                  <Card className="bg-slate-800/30 border-slate-700/50">
+                    <CardContent className="p-6">
+                      <h3 className="font-semibold text-white mb-2">
+                        Research Phase
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Analysis of blockchain security challenges and AI
+                        applications
+                      </p>
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
+
+              {/* Q2 2024 */}
+              <div className="relative">
+                <div className="flex items-center mb-8">
+                  <div className="w-4 h-4 bg-yellow-400 rounded-full mr-4"></div>
+                  <Badge
+                    variant="secondary"
+                    className="bg-yellow-500/20 text-yellow-300 border-yellow-500/30"
+                  >
+                    Q2 2024 - IN PROGRESS
+                  </Badge>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
+                  <Card className="bg-slate-800/30 border-slate-700/50">
+                    <CardContent className="p-6">
+                      <h3 className="font-semibold text-white mb-2">
+                        Subnet Integration
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Connect with TAO subnet and implement validator rewards
+                      </p>
+                    </CardContent>
+                  </Card>
+                  <Card className="bg-slate-800/30 border-slate-700/50">
+                    <CardContent className="p-6">
+                      <h3 className="font-semibold text-white mb-2">
+                        Threat Intel Beta
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Enhanced pattern recognition and real-time alert system
+                      </p>
+                    </CardContent>
+                  </Card>
+                  <Card className="bg-slate-800/30 border-slate-700/50">
+                    <CardContent className="p-6">
+                      <h3 className="font-semibold text-white mb-2">
+                        Developer APIs
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Public APIs for threat data access and agent development
+                      </p>
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
+
+              {/* Q3-Q4 2024 */}
+              <div className="relative">
+                <div className="flex items-center mb-8">
+                  <div className="w-4 h-4 bg-slate-400 rounded-full mr-4"></div>
+                  <Badge
+                    variant="secondary"
+                    className="bg-slate-500/20 text-slate-300 border-slate-500/30"
+                  >
+                    Q3-Q4 2024 - PLANNED
+                  </Badge>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
+                  <Card className="bg-slate-800/30 border-slate-700/50">
+                    <CardContent className="p-6">
+                      <h3 className="font-semibold text-white mb-2">
+                        Maelstrom Launch
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Full DAO governance AI and simulation platform
+                      </p>
+                    </CardContent>
+                  </Card>
+                  <Card className="bg-slate-800/30 border-slate-700/50">
+                    <CardContent className="p-6">
+                      <h3 className="font-semibold text-white mb-2">
+                        Cross-chain Support
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Expand beyond Bitcoin to Ethereum, Solana, and others
+                      </p>
+                    </CardContent>
+                  </Card>
+                  <Card className="bg-slate-800/30 border-slate-700/50">
+                    <CardContent className="p-6">
+                      <h3 className="font-semibold text-white mb-2">
+                        Community Platform
+                      </h3>
+                      <p className="text-slate-400 text-sm">
+                        Open-source tools, documentation, and contributor
+                        onboarding
+                      </p>
+                    </CardContent>
+                  </Card>
+                </div>
+              </div>
             </div>
           </div>
         </section>
