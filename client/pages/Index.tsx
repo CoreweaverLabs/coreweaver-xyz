@@ -742,16 +742,17 @@ export default function Index() {
             <div className="text-center mb-16">
               <Badge
                 variant="secondary"
-                className="mb-6 bg-slate-800/50 text-slate-300 border-slate-700"
+                className="mb-6 bg-emerald-500/20 text-emerald-300 border-emerald-500/30"
               >
-                Development Roadmap
+                🚀 Live Platform & Future Roadmap
               </Badge>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-                Building the Future
+                Production Ready & Scaling
               </h2>
               <p className="text-slate-300 text-lg max-w-3xl mx-auto">
-                Our development milestones and commitments for delivering
-                autonomous AI security systems to blockchain networks.
+                COREWEAVER is now live in partnership with Gemini and Kraken.
+                See our deployment history and upcoming enhancements to the
+                autonomous AI security platform.
               </p>
             </div>
 
