@@ -1037,101 +1037,265 @@ export default function Index() {
       </main>
 
       {/* Footer */}
-      <footer className="py-24 border-t border-slate-800/50">
+      <footer className="py-24 border-t border-slate-800/50 bg-slate-950/50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-            <div className="md:col-span-2">
-              <div className="flex items-center space-x-3 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-violet-600 rounded-lg flex items-center justify-center">
-                  <Cpu className="w-5 h-5 text-white" />
+          {/* Main Footer Content */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+            {/* Company Info */}
+            <div className="lg:col-span-2">
+              <div className="flex items-center space-x-3 mb-6">
+                <div className="w-10 h-10 bg-gradient-to-br from-cyan-400 to-violet-600 rounded-xl flex items-center justify-center">
+                  <Cpu className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <div className="font-bold text-xl">COREWEAVER</div>
-                  <div className="text-xs text-slate-400">
+                  <div className="font-bold text-2xl">COREWEAVER</div>
+                  <div className="text-sm text-slate-400">
                     Dark Gemini Alliance
                   </div>
                 </div>
               </div>
-              <p className="text-slate-400 mb-6 max-w-md">
-                Establishing universal standards for quantum algorithm design,
-                powering autonomous systems for Blockchain innovation.
+              <p className="text-slate-300 mb-6 max-w-md leading-relaxed">
+                Building autonomous AI systems that protect blockchain networks
+                through threat intelligence, privacy analysis, and collaborative
+                security research.
               </p>
-              <div className="flex space-x-4">
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="text-slate-400 hover:text-white"
-                >
-                  <Github className="w-4 h-4" />
-                </Button>
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="text-slate-400 hover:text-white"
-                >
-                  <Twitter className="w-4 h-4" />
-                </Button>
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="text-slate-400 hover:text-white"
-                >
+
+              {/* Contact Info */}
+              <div className="space-y-3 mb-6">
+                <div className="flex items-center space-x-3 text-slate-400">
+                  <Globe className="w-4 h-4" />
+                  <span className="text-sm">coreweaver.xyz</span>
+                </div>
+                <div className="flex items-center space-x-3 text-slate-400">
                   <Mail className="w-4 h-4" />
+                  <span className="text-sm">contact@coreweaver.xyz</span>
+                </div>
+                <div className="flex items-center space-x-3 text-slate-400">
+                  <MapPin className="w-4 h-4" />
+                  <span className="text-sm">Distributed • Global Network</span>
+                </div>
+              </div>
+
+              {/* Social Links */}
+              <div className="flex space-x-3">
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="text-slate-400 hover:text-white hover:bg-slate-800/50 p-2"
+                  asChild
+                >
+                  <a href="#" aria-label="GitHub">
+                    <Github className="w-5 h-5" />
+                  </a>
+                </Button>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="text-slate-400 hover:text-white hover:bg-slate-800/50 p-2"
+                  asChild
+                >
+                  <a href="#" aria-label="Twitter">
+                    <Twitter className="w-5 h-5" />
+                  </a>
+                </Button>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="text-slate-400 hover:text-white hover:bg-slate-800/50 p-2"
+                  asChild
+                >
+                  <a href="#" aria-label="LinkedIn">
+                    <Linkedin className="w-5 h-5" />
+                  </a>
+                </Button>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="text-slate-400 hover:text-white hover:bg-slate-800/50 p-2"
+                  asChild
+                >
+                  <a href="#" aria-label="Discord">
+                    <MessageCircle className="w-5 h-5" />
+                  </a>
                 </Button>
               </div>
             </div>
+
+            {/* Dark Gemini Alliance */}
             <div>
-              <h3 className="font-semibold text-white mb-4">Sub-Brands</h3>
+              <h3 className="font-semibold text-white mb-4 flex items-center">
+                <Shield className="w-4 h-4 mr-2 text-cyan-400" />
+                Alliance
+              </h3>
               <div className="space-y-3">
-                {subBrands.slice(0, 3).map((brand, index) => (
+                {subBrands.map((brand, index) => (
                   <a
                     key={index}
                     href={`https://${brand.url}`}
-                    className="block text-slate-400 hover:text-white transition-colors"
+                    className="block text-slate-400 hover:text-cyan-400 transition-colors text-sm group"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    {brand.name}
+                    <span className="flex items-center">
+                      {brand.name}
+                      <ExternalLink className="w-3 h-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    </span>
                   </a>
                 ))}
               </div>
             </div>
+
+            {/* Platform */}
             <div>
-              <h3 className="font-semibold text-white mb-4">Resources</h3>
+              <h3 className="font-semibold text-white mb-4 flex items-center">
+                <Brain className="w-4 h-4 mr-2 text-violet-400" />
+                Platform
+              </h3>
+              <div className="space-y-3">
+                <a
+                  href="#stack"
+                  className="block text-slate-400 hover:text-violet-400 transition-colors text-sm"
+                >
+                  System Architecture
+                </a>
+                <a
+                  href="#use-cases"
+                  className="block text-slate-400 hover:text-violet-400 transition-colors text-sm"
+                >
+                  Use Cases
+                </a>
+                <a
+                  href="#roadmap"
+                  className="block text-slate-400 hover:text-violet-400 transition-colors text-sm"
+                >
+                  Roadmap
+                </a>
+                <a
+                  href="#join"
+                  className="block text-slate-400 hover:text-violet-400 transition-colors text-sm"
+                >
+                  Join Alpha
+                </a>
+                <a
+                  href="#"
+                  className="block text-slate-400 hover:text-violet-400 transition-colors text-sm"
+                >
+                  API Status
+                </a>
+              </div>
+            </div>
+
+            {/* Resources */}
+            <div>
+              <h3 className="font-semibold text-white mb-4 flex items-center">
+                <Book className="w-4 h-4 mr-2 text-emerald-400" />
+                Resources
+              </h3>
               <div className="space-y-3">
                 <a
                   href="#"
-                  className="block text-slate-400 hover:text-white transition-colors"
+                  className="block text-slate-400 hover:text-emerald-400 transition-colors text-sm flex items-center"
                 >
+                  <FileText className="w-3 h-3 mr-2" />
                   Documentation
                 </a>
                 <a
                   href="#"
-                  className="block text-slate-400 hover:text-white transition-colors"
+                  className="block text-slate-400 hover:text-emerald-400 transition-colors text-sm flex items-center"
                 >
-                  API Reference
-                </a>
-                <a
-                  href="#"
-                  className="block text-slate-400 hover:text-white transition-colors"
-                >
+                  <Users className="w-3 h-3 mr-2" />
                   Developer Guide
                 </a>
                 <a
                   href="#"
-                  className="block text-slate-400 hover:text-white transition-colors"
+                  className="block text-slate-400 hover:text-emerald-400 transition-colors text-sm flex items-center"
                 >
-                  Community Forums
+                  <Github className="w-3 h-3 mr-2" />
+                  Open Source
+                </a>
+                <a
+                  href="#"
+                  className="block text-slate-400 hover:text-emerald-400 transition-colors text-sm flex items-center"
+                >
+                  <MessageCircle className="w-3 h-3 mr-2" />
+                  Community
+                </a>
+                <a
+                  href="#"
+                  className="block text-slate-400 hover:text-emerald-400 transition-colors text-sm flex items-center"
+                >
+                  <Calendar className="w-3 h-3 mr-2" />
+                  Events
                 </a>
               </div>
             </div>
           </div>
-          <div className="border-t border-slate-800/50 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-slate-400 text-sm">
-              © 2024 COREWEAVER.xyz - Dark Gemini Alliance. All rights
-              reserved.
-            </p>
-            <p className="text-slate-500 text-xs mt-2 md:mt-0">
-              Protege, Fabrica, Evolvi | Proteggi, Crea, Evolvi
-            </p>
+
+          {/* Newsletter Signup */}
+          <div className="border-t border-slate-800/50 pt-8 pb-8">
+            <div className="bg-gradient-to-r from-slate-800/30 to-slate-700/30 rounded-2xl p-8 border border-slate-700/50">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                  <h3 className="text-xl font-semibold text-white mb-2">
+                    Stay Connected
+                  </h3>
+                  <p className="text-slate-300">
+                    Get the latest updates on AI security research, Bittensor
+                    integration, and Dark Gemini Alliance developments.
+                  </p>
+                </div>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <input
+                    type="email"
+                    placeholder="your@email.com"
+                    className="flex-1 px-4 py-3 bg-slate-700/50 border border-slate-600 rounded-lg text-white placeholder-slate-400 focus:ring-2 focus:ring-cyan-400 focus:border-transparent text-sm"
+                  />
+                  <Button className="bg-gradient-to-r from-cyan-500 to-violet-600 hover:from-cyan-600 hover:to-violet-700 px-6">
+                    Subscribe
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Footer Bottom */}
+          <div className="border-t border-slate-800/50 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 sm:gap-8">
+                <p className="text-slate-400 text-sm">
+                  © 2025 COREWEAVER.xyz - Dark Gemini Alliance. All rights
+                  reserved.
+                </p>
+                <div className="flex space-x-6">
+                  <a
+                    href="#"
+                    className="text-slate-400 hover:text-white text-sm transition-colors"
+                  >
+                    Privacy Policy
+                  </a>
+                  <a
+                    href="#"
+                    className="text-slate-400 hover:text-white text-sm transition-colors"
+                  >
+                    Terms of Service
+                  </a>
+                  <a
+                    href="#"
+                    className="text-slate-400 hover:text-white text-sm transition-colors"
+                  >
+                    Security
+                  </a>
+                </div>
+              </div>
+              <div className="text-right">
+                <p className="text-slate-500 text-xs italic">
+                  Protege, Fabrica, Evolvi
+                </p>
+                <p className="text-slate-500 text-xs italic">
+                  Proteggi, Crea, Evolvi
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
