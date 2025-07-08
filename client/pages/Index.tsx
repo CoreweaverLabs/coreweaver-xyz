@@ -1022,42 +1022,65 @@ export default function Index() {
               </form>
             </Card>
 
-            {/* Alternative Actions */}
+            {/* Platform Features */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <Card className="bg-slate-800/30 border-slate-700/50 p-6 hover:bg-slate-800/50 transition-colors">
-                <Github className="w-8 h-8 text-cyan-400 mx-auto mb-4" />
-                <h3 className="font-semibold text-white mb-2">
-                  Contribute Code
+              <Card className="bg-slate-800/30 border-slate-700/50 p-6 hover:bg-slate-800/50 transition-colors group">
+                <div className="w-12 h-12 bg-gradient-to-br from-cyan-500/20 to-cyan-600/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <Shield className="w-6 h-6 text-cyan-400" />
+                </div>
+                <h3 className="font-semibold text-white mb-2 text-center">
+                  Live Threat Detection
                 </h3>
-                <p className="text-slate-400 text-sm mb-4">
-                  Help build the open-source AI coordination layer
+                <p className="text-slate-400 text-sm mb-4 text-center">
+                  Real-time monitoring and AI-powered threat intelligence from
+                  DarkGemini network
                 </p>
-                <Button variant="ghost" size="sm" className="w-full">
-                  View GitHub
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="w-full text-cyan-400 hover:text-cyan-300"
+                >
+                  Monitor Threats
                 </Button>
               </Card>
 
-              <Card className="bg-slate-800/30 border-slate-700/50 p-6 hover:bg-slate-800/50 transition-colors">
-                <GraduationCap className="w-8 h-8 text-violet-400 mx-auto mb-4" />
-                <h3 className="font-semibold text-white mb-2">
-                  Learn & Research
+              <Card className="bg-slate-800/30 border-slate-700/50 p-6 hover:bg-slate-800/50 transition-colors group">
+                <div className="w-12 h-12 bg-gradient-to-br from-violet-500/20 to-violet-600/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <Waves className="w-6 h-6 text-violet-400" />
+                </div>
+                <h3 className="font-semibold text-white mb-2 text-center">
+                  Validator Network
                 </h3>
-                <p className="text-slate-400 text-sm mb-4">
-                  Access documentation, guides, and research papers
+                <p className="text-slate-400 text-sm mb-4 text-center">
+                  Join the Bittensor subnet and earn rewards through
+                  decentralized validation
                 </p>
-                <Button variant="ghost" size="sm" className="w-full">
-                  Visit Academy
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="w-full text-violet-400 hover:text-violet-300"
+                >
+                  Start Validating
                 </Button>
               </Card>
 
-              <Card className="bg-slate-800/30 border-slate-700/50 p-6 hover:bg-slate-800/50 transition-colors">
-                <Mail className="w-8 h-8 text-emerald-400 mx-auto mb-4" />
-                <h3 className="font-semibold text-white mb-2">Stay Updated</h3>
-                <p className="text-slate-400 text-sm mb-4">
-                  Get the latest updates on development progress
+              <Card className="bg-slate-800/30 border-slate-700/50 p-6 hover:bg-slate-800/50 transition-colors group">
+                <div className="w-12 h-12 bg-gradient-to-br from-emerald-500/20 to-emerald-600/20 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                  <Brain className="w-6 h-6 text-emerald-400" />
+                </div>
+                <h3 className="font-semibold text-white mb-2 text-center">
+                  AI Security Suite
+                </h3>
+                <p className="text-slate-400 text-sm mb-4 text-center">
+                  Deploy autonomous agents for DAO governance and security
+                  analysis
                 </p>
-                <Button variant="ghost" size="sm" className="w-full">
-                  Newsletter
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="w-full text-emerald-400 hover:text-emerald-300"
+                >
+                  Deploy Agents
                 </Button>
               </Card>
             </div>
