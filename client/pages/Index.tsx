@@ -806,12 +806,12 @@ export default function Index() {
               {/* Q1 2025 */}
               <div className="relative">
                 <div className="flex items-center mb-8">
-                  <div className="w-4 h-4 bg-yellow-400 rounded-full mr-4"></div>
+                  <div className="w-4 h-4 bg-emerald-400 rounded-full mr-4"></div>
                   <Badge
                     variant="secondary"
-                    className="bg-yellow-500/20 text-yellow-300 border-yellow-500/30"
+                    className="bg-emerald-500/20 text-emerald-300 border-emerald-500/30"
                   >
-                    Q1 2025 - IN PROGRESS
+                    Q1 2025 - LIVE 🚀
                   </Badge>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 ml-8">
